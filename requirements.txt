@@ -3,7 +3,7 @@ numpy>=1.24
 opencv-python>=4.8
 pytest>=7.4
 
-# Week 4 API (optional — only needed to run the FastAPI server)
+# Week 4 API (optional, only needed to run the FastAPI server)
 fastapi>=0.110
 uvicorn>=0.29
 pydantic>=2.6
