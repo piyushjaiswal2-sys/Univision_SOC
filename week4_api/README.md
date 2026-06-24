@@ -1,8 +1,8 @@
-# Week 4 — APIs & JSON Contracts
+# Week 4 : APIs & JSON Contracts
 
 **Focus:** routes, JSON, validation, status codes (FastAPI + Pydantic).
 
-## Lab — image-analysis API contract
+## Image-analysis API contract
 `main.py` defines three routes:
 
 | Method | Route | Purpose |
