@@ -1,4 +1,4 @@
-# Week 1 Lab — Camera Alert Flowchart
+# Week 1 Lab Camera Alert Flowchart
 
 A flowchart for a motion-triggered camera alert. The rule taught in Week 1:
 *"if motion is detected, capture a frame; otherwise keep waiting."*
