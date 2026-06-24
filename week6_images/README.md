@@ -1,8 +1,8 @@
-# Week 6 — Images As Arrays
+# Week 6 : Images As Arrays
 
 **Focus:** pixels, channels, shape, resize, grayscale, crop.
 
-## Lab — load, inspect, resize, grayscale, crop
+## Load, inspect, resize, grayscale, crop
 `image_basics.py` demonstrates that an image is just a NumPy array of shape
 `(height, width, channels)`. It:
 1. Loads an image (or **auto-generates a synthetic one** so the lab runs with no external file).
@@ -19,15 +19,15 @@ python image_basics.py path/to/img.jpg # your own image
 Before/after images are written to `week6_images/output/` (git-ignored) so you can compare them
 side by side.
 
-## Homework — submit before/after images + short explanation
+## Before/after images + short explanation
 Run the script, then compare:
-- **`01_original.png` vs `03_grayscale.png`** — grayscale collapses 3 colour channels into 1
+- **`01_original.png` vs `03_grayscale.png`** : grayscale collapses 3 colour channels into 1
   intensity channel. We lose the ability to distinguish objects by colour (e.g. a red vs green
-  jacket), but keep shape/edges — and the array is 3× smaller, so it is cheaper to process.
-- **`01_original.png` vs `02_resized.png`** — forcing a non-square image into 640×640 stretches it,
+  jacket), but keep shape/edges : and the array is 3× smaller, so it is cheaper to process.
+- **`01_original.png` vs `02_resized.png`** : forcing a non-square image into 640×640 stretches it,
   distorting aspect ratio. Real pipelines usually *letterbox* (pad) instead to preserve proportions.
 
 ## Key lesson
 Before object detection, understand that every model input is just numbers in a useful shape.
 Resizing changes spatial resolution; cropping selects a region; normalization rescales values into
-a model-friendly range. None of it is magic — it is array manipulation.
+a model-friendly range. None of it is magic : it is array manipulation.
