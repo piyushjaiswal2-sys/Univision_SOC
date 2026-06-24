@@ -79,6 +79,8 @@ r.italic = True
 r.font.size = Pt(11)
 
 meta = [
+    ("Roll Number", "24B2454"),
+    ("Mentors", "Sayandeep and Dhruv"),
     ("Course", "Uni_Vision Concept Learning Curriculum"),
     ("Weeks Covered", "Week 1 - Week 6 (Midterm)"),
     ("Topics", "Computational thinking, Python, HTML/CSS/JS/React, FastAPI, Graphs/DAGs, OpenCV"),

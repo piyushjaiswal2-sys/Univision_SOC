@@ -108,4 +108,5 @@ The `week3_web_react/` files are reference React + TypeScript components. To run
 
 ## Author
 
-Piyush Jaiswal — Seasons of Code (SOC), Uni_Vision Concept Learning Curriculum.
+Piyush Jaiswal (Roll No. **24B2454**) — Seasons of Code (SOC), Uni_Vision Concept Learning Curriculum.
+Mentors: **Sayandeep** and **Dhruv**.
