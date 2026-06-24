@@ -1,4 +1,4 @@
-# Week 1 — Computing Without Fear
+# Week 1
 
 **Focus:** Scratch, Blockly, flowcharts, and the core logic primitives behind every system.
 
