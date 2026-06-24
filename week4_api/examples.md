@@ -1,8 +1,8 @@
-# Week 4 Homework — Worked Request & Response Bodies
+# Worked Request & Response Bodies
 
 Fully worked examples for every route, including success and error cases.
 
-## `GET /health` — success
+## `GET /health` : success
 ```json
 {
   "status": "ok",
@@ -10,7 +10,7 @@ Fully worked examples for every route, including success and error cases.
 }
 ```
 
-## `POST /analyse` — request body
+## `POST /analyse` : request body
 ```json
 {
   "image_url": "https://example.com/frames/frame_00142.jpg",
@@ -20,7 +20,7 @@ Fully worked examples for every route, including success and error cases.
 }
 ```
 
-## `POST /analyse` — success response
+## `POST /analyse` : success response
 ```json
 {
   "result_id": "a3f2c1d0-7e44-4b8a-9c12-1e6b2f3a5d78",
@@ -34,7 +34,7 @@ Fully worked examples for every route, including success and error cases.
 }
 ```
 
-## `POST /analyse` — validation error (422)
+## `POST /analyse`: validation error (422)
 If a required field is missing or a value is out of range, FastAPI/Pydantic returns 422 automatically:
 ```json
 {
@@ -45,7 +45,7 @@ If a required field is missing or a value is out of range, FastAPI/Pydantic retu
 }
 ```
 
-## `GET /results/{id}` — not found (404)
+## `GET /results/{id}` : not found (404)
 ```json
 { "detail": "Result not found" }
 ```
