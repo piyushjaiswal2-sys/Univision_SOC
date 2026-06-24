@@ -1,6 +1,6 @@
-# Uni_Vision — SOC Midterm Submission (Weeks 1–6)
+# Uni_Vision SOC Midterm Submission (Weeks 1–6)
 
-A real-time visual-intelligence learning project built as part of the **Uni_Vision Concept Learning Curriculum** (Seasons of Code).
+A real-time visual-intelligence learning project built as part of the Uni_Vision Concept Learning Curriculum (Seasons of Code).
 
 Uni_Vision is taught as a *layered system*, not a single model. The prototype accepts images / video / camera streams, processes them through configurable workflow blocks, detects objects/text/anomalies, streams progress to a dashboard, and can use agentic AI tools to inspect and explain the system.
 
