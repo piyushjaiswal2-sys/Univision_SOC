@@ -15,7 +15,7 @@ dist/
 build/
 .vite/
 
-# Generated sample outputs (Week 6)
+# Generated sample outputs for week 6
 week6_images/output/
 *.tmp
 
