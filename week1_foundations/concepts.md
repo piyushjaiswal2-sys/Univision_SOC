@@ -1,4 +1,4 @@
-# Week 1 Homework — Variables, Loops, Events, and Conditions
+# Variables, Loops, Events, and Conditions
 
 > One-page explanation in my own words, grounded in the Uni_Vision vision-pipeline idea.
 
