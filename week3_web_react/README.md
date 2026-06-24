@@ -1,14 +1,14 @@
-# Week 3 — Web Basics & React Thinking
+# Week 3 : Web Basics & React Thinking
 
 **Focus:** HTML structure, CSS appearance, JS behaviour, TypeScript types, React state.
 
-## Lab — three-stage dashboard mock
-- `types.ts` — `StageStatus`, `Stage`, `PipelineEvent` types, the initial stage list, and a
+## Three-stage dashboard mock
+- `types.ts` : `StageStatus`, `Stage`, `PipelineEvent` types, the initial stage list, and a
   status→colour map.
-- `App.tsx` — a dashboard showing **Input → Detection → Output**. Each card colours itself by
+- `App.tsx` : a dashboard showing **Input → Detection → Output**. Each card colours itself by
   status (grey/blue/green/red). **Advance** steps one stage at a time; **Reset** clears it.
 
-## Homework — UI state diagram
+## UI state diagram
 
 | From | To | Trigger |
 |------|----|---------|
